@@ -1,0 +1,48 @@
+body,html{
+    margin: 0;
+    font-family: helvetica;
+}
+.navbar {
+    background-color: #2A3F54;
+}
+
+.bg {
+  background-image: url("/login-form/assets/img/introduction.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+.form-control{
+    border: 3px solid #2A3F54;
+    padding: .250rem .50rem;
+    font-size: 0.85rem;
+    border-radius: .35rem;
+}
+
+.divider{
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid black;
+    opacity: 1 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-login{
+    color: white;
+    background-color: #2A3F54;
+    border-color: #2A3F54;
+    height: 35px;
+    width: 65%;
+    border-radius: .35rem;
+}
+
+@media (max-width:420px) {
+    .logo-row{
+        justify-content: center !important;
+    }
+}
