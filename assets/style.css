@@ -7,7 +7,7 @@ body,html{
 }
 
 .bg {
-  background-image: url("/login-form/assets/img/introduction.jpg");
+  background-image: url("https://wanich1.github.io/login-form/assets/img/introduction.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
